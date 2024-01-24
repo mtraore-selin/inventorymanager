@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOption = {
-  //   origin: ["https://stockmerch.vercel.app"],
-  origin: ["http://localhost:3000"],
+  origin: ["https://inventorymanager-0frb.onrender.com"],
+  // origin: ["http://localhost:3000"],
   methods: ["GET", "POST", "DELETE"],
   credentials: true,
 };
